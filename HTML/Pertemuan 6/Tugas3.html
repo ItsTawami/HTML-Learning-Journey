@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .benefits {
+            margin-bottom: 35px;
+        }
+        .button-free {
+            width: 380px;
+            height: 50px;
+            border: 3px solid;
+            border-color:black;
+            background-color: black;
+            color: white;
+            font-size:medium;
+            border-radius: 8px;
+        }
+        .button-free:hover {
+            background-color: white;
+            color: black;
+        }
+        .button-free:active {
+            background-color: #f1f1f1;
+        }
+        .button-paid {
+            width: 380px;
+            height: 50px;
+            border: 3px solid;
+            border-color: dodgerblue;
+            background-color: dodgerblue;
+            color: white;
+            font-size:medium;
+            border-radius: 8px;
+        }
+        .button-paid:hover {
+            background-color: white;
+            color: dodgerblue;
+        }
+        .button-paid:active {
+            background-color: #f1f1f1;
+        }
+        .line {
+            margin: 30px 0px;
+            height: 1px;
+            border-top: 2px solid #eee;
+            border-color: lightgray;
+        }
+        .option-free {
+            text-align: center;
+            border: solid;
+            margin: 30px auto;
+            padding: 30px;
+            width: 380px;
+            background-color: white;
+            border-radius: 10px;
+            border: 0px solid;
+            border-color: lightgray;
+        }
+        .option-paid {
+            text-align: center;
+            border: solid;
+            margin: 30px auto;
+            padding: 30px;
+            width: 380px;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid;
+            border-color: dodgerblue;
+            outline: 4px solid;
+            outline-color: rgb(0, 191, 255,  0.2);
+        }
+        .time-info {
+            margin: 0px;
+            color: gray;
+        }
+        .title {
+            font-size: 40px;
+            margin: 10px;
+        }
+        .type {
+            color: gray;
+            letter-spacing: 4px;
+            margin: 0px;
+        }
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" target="_blank">
+    <div class="option-free">
+        <div>
+            <p class="type">
+                <b>PELAJAR</b>
+            </p>
+            <h1 class="title">Gratis</h1>
+            <p class="time-info">
+                Selamanya
+            </p>
+        </div>
+        <div class="line"></div>
+        <div class="benefits">
+            <p>
+                Akses Materi Dasar
+            </p>
+            <p>
+                Forum Komunitas
+            </p>
+            <p>
+                Sertifikat Digital
+            </p>
+        </div>
+        <button class="button-free"><b>Mulai Belajar</b></button>
+    </div>
+    <div class="option-paid">
+        <div>
+            <p class="type">
+                <b>PROFESIONAL</b>
+            </p>
+            <h1 class="title">Rp 99rb</h1>
+            <p class="time-info">
+                Per Bulan
+            </p>
+        </div>
+        <div class="line"></div>
+        <div class="benefits">
+            <p>
+                Semua Fitur Pelajar
+            </p>
+            <p>
+                Proyek Real-World
+            </p>
+            <p>
+                Mentoring Privat
+            </p>
+            <p>
+                Akses Kode Sumber
+            </p>
+        </div>
+        <button class="button-paid"><b>Pilih Paket Pro</b></button>
+    </div>
+</body>
+</html>
